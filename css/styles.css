@@ -166,7 +166,9 @@ body {
 
 
 /* Animations for Text / Name */
-
+a:visited, a:link {
+  color: #3F4044;
+}
 
 .row {
     padding-left: 0px;
