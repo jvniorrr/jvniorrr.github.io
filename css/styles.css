@@ -5,6 +5,7 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 90px 90px;
     display: flex;
+    font-family: "Archivo Black", sans-serif;
     /* width: 100%; */
     
 }
@@ -79,6 +80,7 @@ body {
     text-align: center;
     font-size: 250%;
     color: #3F4044;
+    color:#FFF;
     line-height: 1.5;
 }
 
@@ -182,7 +184,7 @@ h6 {
 
 .words span {
   display: inline-block;
-  animation: move 10s ease-in-out infinite;
+  animation: move 3s ease-in-out infinite;
 }
 
 div > a {
