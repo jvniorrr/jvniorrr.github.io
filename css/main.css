@@ -603,7 +603,21 @@ body {
 } 
 @media screen and (max-width:700px) {
     .wrapper {
-        margin-left: 16%;
+        margin-left: 12%;
+        width: 450px;
+        height: 350px;
+        margin-top: 36%;
+    }
+
+    .description {
+        margin-left: 25%;
+    }
+    .name {
+        font-size: 24px;
+        margin-left: 33%;
+    }
+    .row {
+        margin-left: 41.5%;
     }
 } 
 @media screen and (max-width:600px) {
@@ -640,9 +654,46 @@ body {
 /* MOBILE? */
 @media screen and (max-width:500px) {
     .wrapper {
-        margin-left: 16%;
+        margin-left: 17%;
+        width: 325px;
+        height: 275px;
+        margin-top: 45%;
+    }
+
+    .name {
+        font-size: 17px;
+    }
+
+    .description {
+        font-size: 70%;
+        margin-left: 25%;
+        margin-top: 12%;
+    }
+    .words {
+        margin-left: 40%;
+        font-size: 8px;
+        margin-top: 3%;
+    }
+    .row {
+        margin-left: 41.5%;
+    }
+    svg {
+        height: 11px;
+        width: 15px;
     }
 } 
+
+@media screen and (max-width:400px) {
+    .wrapper {
+        margin-left: 9%;
+        width: 300px;
+        height: 250px;
+        margin-top: 45%;
+    }
+    .row {
+        margin-left: 43.5%;
+    }
+}
 
     /* position: relative; */
 /* } */
