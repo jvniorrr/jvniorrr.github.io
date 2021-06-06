@@ -817,6 +817,13 @@ body {
     }
 }
 
+/* Laptop Views? */
+@media screen and (width:1280px) and (height:800px) {
+    .wrapper {
+        margin-left: 18%;
+        margin-top: 10%;
+    }
+} 
 
     /* position: relative; */
 /* } */
