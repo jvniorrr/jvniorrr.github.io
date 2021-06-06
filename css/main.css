@@ -786,5 +786,37 @@ body {
     }
 }
 
+
+/* IPAD */
+@media screen and (width:768px) {
+    .wrapper {
+        margin-left: 17%;
+    }
+}
+
+/* IPHONE X */
+
+@media screen and (width:375px) {
+    .wrapper {
+        margin-top: 49%;
+        margin-left: 10%;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media screen and (width:414px) {
+    .wrapper {
+        margin-left: 10%;
+    }
+}
+
+/* Kindle */
+@media screen and (width:800px) and (min-height:1200px) {
+    .wrapper {
+        margin-left: 18%;
+    }
+}
+
+
     /* position: relative; */
 /* } */
